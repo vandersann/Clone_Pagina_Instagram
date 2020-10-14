@@ -4,11 +4,11 @@
 # Resumo
 O intuito da atividade é demonstrar os conceitos básicos de Flexbox, estruturação da página e responsavidade em uma página de login de site que lembra o aplicativo Instagram.   
 
-#Demonstração do resultado 
+# Demonstração do resultado 
 
-##Tela Inicial no formato desktop
+## Tela Inicial no formato desktop
 
 
-##Tela no formato reduzido
+## Tela no formato reduzido
 
-#Tela no formato mobile
+## Tela no formato mobile
