@@ -16,7 +16,8 @@ body{
     display: flex;
     justify-content: center;
 }
-.instagram-wrapper{
+
+.instagram-esquerda{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,14 +25,14 @@ body{
     height: 100vh;
 }
 
-.instagram-phone{
+.instagram-celular{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 
 }
 
-.instagram-continue{
+.instagram-direita{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -40,7 +41,7 @@ body{
     min-height: 34rem;
 }
 
-.group{
+.grupo{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,7 +52,7 @@ body{
     border: 1px solid lightgrey;
 }
 
-.group:nth-child(1){
+.grupo:nth-child(1){
     min-height: 19rem;
     margin-bottom: 1rem;
 }
@@ -60,7 +61,7 @@ body{
     width: 15rem;
 }
 
-.profile-photo{
+.perfil-foto{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,27 +70,27 @@ body{
     margin-bottom: 1rem ;
 }
 
-.instagram-login{
+.instagram-entrar{
     background-color: #0095f6;
     color: #ffffff;
     padding: 8px;
     border-radius: 4px;
 }
 
-.instagram-logout{
+.instagram-sair{
     color: #0095f6;
     margin-top: 1rem;
 }
 
-.not-account{
+.sem-conta{
     color: rgb(160, 160, 160);
 }
 
-.link-blue{
+.link-azul{
     color: #0095f6;
 }
 
-.get-the-app{
+.baixar-o-app{
     display: flex; 
     flex-direction: column;
     align-items: center;
@@ -119,3 +120,31 @@ body{
 
 .app-download:nth-child(2){
     background-image: url(img/googleplay-button.png);
+}
+/* media queries */
+
+@media(max-width: 1024px){
+    .instagram-celular{
+        display: none;
+    }
+    .instagram-direita{
+        width: auto;
+    }
+}
+@media (max-width: 650px){
+    body{
+        background-color: #ffffff;
+    }
+    .instagram-esquerda{
+        width: 90%;
+    }
+    .instagram-celular{
+        display: none;
+    }
+    .instagram-direita{
+        width: 100%;
+    }
+    .grupo{
+        border: 1px solid transparent;
+    }
+}
