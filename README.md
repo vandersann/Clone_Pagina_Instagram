@@ -7,7 +7,7 @@ O intuito da atividade é demonstrar os conceitos básicos de Flexbox, estrutura
 # Demonstração do resultado 
 
 ## Tela Inicial no formato desktop
-
+![1.png](1.png)
 
 ## Tela no formato reduzido
 
