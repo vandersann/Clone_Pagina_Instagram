@@ -10,5 +10,7 @@ O intuito da atividade é demonstrar os conceitos básicos de Flexbox, estrutura
 ![1.png](1.png)
 
 ## Tela no formato reduzido
+![2](2.png)
 
 ## Tela no formato mobile
+![3](3.png)
